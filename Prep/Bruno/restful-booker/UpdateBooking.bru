@@ -1,0 +1,36 @@
+meta {
+  name: UpdateBooking
+  type: http
+  seq: 5
+}
+
+put {
+  url: https://restful-booker.herokuapp.com/booking/{{id}}
+  body: json
+  auth: basic
+}
+
+headers {
+  Content-Type: application/json
+  Accept: application/json
+  Cookie: token=abc123
+}
+
+auth:basic {
+  username: admin
+  password: password123
+}
+
+body:json {
+  {
+      "firstname" : "{{$randomFullName}}",
+      "lastname" : "{{$randomLastName}}",
+      "totalprice" : {{$randomBankAccount}},
+      "depositpaid" : {{$randomBoolean}},
+      "bookingdates" : {
+          "checkin" : "2018-01-01",
+          "checkout" : "2019-01-01"
+      },
+      "additionalneeds" : "{{$randomAdjective}}"
+  }
+}

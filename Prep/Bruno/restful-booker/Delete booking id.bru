@@ -1,0 +1,25 @@
+meta {
+  name: Delete booking id
+  type: http
+  seq: 7
+}
+
+delete {
+  url: {{BASEURL}}/booking/:id
+  body: none
+  auth: basic
+}
+
+params:path {
+  id: {{id}}
+}
+
+headers {
+  Cookie: token={{token}}
+  Content-Type: application/json
+}
+
+auth:basic {
+  username: admin
+  password: password123
+}

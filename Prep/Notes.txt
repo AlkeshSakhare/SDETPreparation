@@ -1,0 +1,141 @@
+https://here.udemy.com/course/learn-sdet-essentials/learn/lecture/15938434#overview
+
+***********************************************************************************************************
+RestAssured-  https://www.youtube.com/watch?v=0i_JoGD-z4Y&list=PL-a9eJ2NZlbT0Hoo_Hj43utwgq2VusPyN&index=1
+https://testbook.com/rrb-je/test-series/my
+https://www.oxfordhomestudy.com/courses/nutrition-certificate-programs-online/free-online-nutrition-courses
+
+Indians
+https://hot-sex-tube.com/
+https://aagmaal.band/  - Good
+https://aagmaal.com/
+https://hiwebxseries.com/
+https://desi73.com
+https://desi00.com/
+https://www.desitales2.com/videos/
+https://mydesi.sbs/
+https://nangilive.com
+http://pornhd.josex2.name/
+https://xxxbp.tv/
+https://kwikylive.com/
+https://alphatron.tv/
+https://mat6tube.com/recent
+https://mmsdose.com/
+https://pornobae.com/
+https://www.hentaicity.com/
+https://www.dinotube.com/
+https://1publicagent.com/
+https://www.xvideos.com/
+https://iwank.tv/en/search/defloration/long/
+https://www.pinkworld.com/
+https://xhaccess.com/channels/family-strokes
+https://www.naughtyamerica.com/porn-sites
+https://www.porzo.com/
+https://badwap.live/
+https://beeg.com/
+https://beeg24.org/
+https://youteenporn.net/
+https://www.pussyboy.net/
+https://www.apornvideo.com/
+https://xnxxbest.pro/
+https://xhaccess.com/
+https://www.xnxx3.com/
+https://xnxxporn.video/
+https://www.pornhat.com/
+https://m.theartporn.com/
+https://hellporno.net/
+https://hellporno.com/2/
+https://hello.porn/
+https://josporn.club/videos/
+http://en.joporn.net/
+https://www.fpo.xxx/
+https://hqporner.com/?q=fpoxxx
+https://www.24xxx.porn/search/Fpoxxx/
+https://mat6tube.com/recent
+https://latinporn.vip/
+https://sexmex.xxx/tour/models/models.html?lang=1
+https://hdpornfree.xxx/en/ch_dir/okxxx/
+https://wvw.sosalkino.tube/
+https://okxxx1.com/
+https://xxxbp.tv/x/ok
+https://www.pornhat.com/
+https://puretaboo.org/
+https://yesporn.vip/channels/puretaboo-1vcn5u/
+https://www.puretaboo.com/en/videos
+https://www.brazzers.xxx/
+https://best.pornktube.com/
+https://yespornpleasexxx.com/
+https://www.sexvid.pro/s/most-favourited/sixvid+download+video/
+https://www.sexvid.xxx/s/most-favourited/two+girl+sleeping+and+doing+x%2A%2Asixvid/
+https://www.milffox.mobi/tags/milfs/?page=2
+https://www.milffox.com/
+https://xhamster.com/videos/wet-pussy-brought-guy-to-orgasm-best-cock-rider-xhv0KCq?utm_source=ext_shared&utm_medium=referral&utm_campaign=link
+https://www.xfree.com/video?id=602447&title=massive-mammary-milfs-riding-ravaging-a-face-fucking-dick-riding-cum-coated-x-rated-extravaganza
+------------------------------------------------------------------------
+Food method
+Sleeping - 12-4
+Eating timing-> 10
+stress management
+
+bit.ly/250courses
+bit.ly/Heckur
+bit.ly/codderr
+
+https://learngitbranching.js.org/
+https://ohmygit.org/
+https://marklodato.github.io/visual-git-guide/index-en.html
+https://onlywei.github.io/explain-git-with-d3/
+https://human.biodigital.com/view?id=production/maleAdult/male_complete_anatomy_16&lang=en&utm_source=human_web&utm_medium=PLG&utm_campaign=anatomy.biodigital.com&ref=anatomy.biodigital.com
+
+-------------------------------------------------------------------------------
+Amod Mahajan
+https://www.youtube.com/watch?v=0i_JoGD-z4Y&list=PL-a9eJ2NZlbT0Hoo_Hj43utwgq2VusPyN
+Sheetal Singh
+https://www.youtube.com/watch?v=AbJrfP4ziIk&list=PLEiBaBxmVLi-hoi61aX-2agQb8EXSCT5f
+Code Studio
+https://www.youtube.com/watch?v=dfGetbMx4vU&list=PLnNg6KqJ3HGjVFcRxr4QaRn7fHe2k8tNQ
+
+tcs accenture infosys
+
+gulam nabi--> gujar sakhare
+Azim Khan
+
+
+255BB9F74C5786
+***********************************************************************************************************
+***********************************************************************************************************
+Appium
+------------------
+
+Download and setup command-tools:-
+-----------------------------------
+Download link:- https://developer.android.com/studio#command-tools
+Guide :- https://developer.android.com/tools/sdkmanager
+
+-----------------------------------------------------------------------------------------------------------------
+
+Download and setup Appium in nodejs:-
+-------------------------------------
+Download link:- https://nodejs.org/en
+
+npm install -g appium
+appium driver install uiautomator2
+npm install -g appium-doctor
+appium driver doctor uiautomator2
+appium plugin install --source=npm appium-gestures-plugin
+
+-----------------------------------------------------------------------------------------------------------------
+
+To run appium server Run below commands:-
+==========================================
+1.with plugins
+---------------
+appium --use-plugins=gestures
+
+2.without plugins and default port 4023
+---------------------------------------
+appium
+
+3.with dedicated port
+---------------------
+appium -a 127.0.0.1 -p 4723

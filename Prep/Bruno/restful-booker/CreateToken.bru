@@ -1,0 +1,36 @@
+meta {
+  name: CreateToken
+  type: http
+  seq: 1
+}
+
+post {
+  url: {{BASEURL}}/auth
+  body: json
+  auth: basic
+}
+
+auth:basic {
+  username: admin
+  password: password123
+}
+
+body:json {
+  {
+      "username" : "admin",
+      "password" : "password123"
+  }
+}
+
+tests {
+  var data=res.getBody();
+  var token=data.token;
+  bru.setEnvVar("token",token)
+  
+  test("Status code is 200", function () {
+      expect(res.getStatus()).to.equal(200);
+  });
+  test("Content-Type is present", function () {
+      expect(res.getHeaders()).to.have.property("Content-Type".toLowerCase());
+  });
+}

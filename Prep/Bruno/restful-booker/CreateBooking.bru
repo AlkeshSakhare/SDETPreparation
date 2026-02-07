@@ -1,0 +1,34 @@
+meta {
+  name: CreateBooking
+  type: http
+  seq: 4
+}
+
+post {
+  url: {{BASEURL}}/booking
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "firstname" : "{{$randomFullName}}",
+      "lastname" : "{{$randomLastName}}",
+      "totalprice" : {{$randomBankAccount}},
+      "depositpaid" : {{$randomBoolean}},
+      "bookingdates" : {
+          "checkin" : "2018-01-01",
+          "checkout" : "2019-01-01"
+      },
+      "additionalneeds" : "{{$randomAdjective}}"
+  }
+}
+
+tests {
+  var res=res.getBody();
+  var bookingid=res.bookingid;
+  bru.setVar("id",bookingid);
+  bru.setEnvVar("id",bookingid);
+  bru.setGlobalEnvVar("id",bookingid);
+  
+}
