@@ -1,6 +1,13 @@
 # SDETPreparation
 
 
+
+
+
+<img src="SDET_PATH.jpg" width="400"/>
+
+___________________________________________________________________________________________________________________________
+
 Blogs:- Tuts and Interview Q & A
 
 https://www.softwaretestingo.com/ -->Company wise questions
